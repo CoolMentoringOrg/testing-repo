@@ -25,7 +25,7 @@ public class Part8CryptoPlatform extends LoggerConfigurationTrait {
         CryptoConnectionHolder externalSystemDataStream = new CryptoConnectionHolder();
         PriceService priceService = new PriceService();
         TradeService tradeService = new TradeService();
-
+// added comment
         HttpServer.create(8080)
                 .startRouterAndAwait(hsr -> hsr
                         .ws(
